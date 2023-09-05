@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: They are declared with the keyword <b>abstract</b>.
+  - text: They do not have a body.
+  - text: They do not have parameters.
+  - text: They cannot be overridden in subclasses.
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3430#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The while loop checks its condition and then executes its body.
+  - text: The do-while loop executes its body and then tests its condition.
+  - text: The while loop can be infinite.
+  - text: "In both loops the result of the condition may be any primitive types, for\
+    \ example while(1) { ... }."
+  - text: In the while loop the first iteration is executed without a condition.
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2027#comment
+status: Solved
+record: -1
+local_check: false

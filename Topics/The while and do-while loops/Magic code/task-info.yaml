@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It counts the number of digits of the number n.
+  - text: It rearranges digits of the number n.
+  - text: It finds the greatest digit of the number n.
+  - text: It determines whether the number n is divisible by 10.
+  - text: It counts the number of '0' in the number n.
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3365#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: A class can extend multiple abstract classes.
+  - text: An abstract class can have abstract and non-abstract instance methods.
+  - text: It's needed to write the keyword <b>abstract</b> to declare a class as abstract.
+  - text: An abstract class cannot have a constructor.
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3273#comment
+status: Solved
+record: -1
+local_check: false

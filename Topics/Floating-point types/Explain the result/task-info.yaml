@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: The program uses an invalid formula to calculate the area.
+  - text: "Operations with <b>double</b>'s produce approximate results, use <b>float</b>'s\
+    \ to get the exact result."
+  - text: Operations with floating-point types can produce an inaccurate result.
+  - text: "4.4110000000000005 is the exact answer, 4.411 is only an approximate result."
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5013#comment
+status: Solved
+record: -1
+local_check: false

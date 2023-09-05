@@ -1,0 +1,28 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    text: |-
+      abstract class IntBinaryOperation {
+      
+          protected int firstArg;
+          protected int secondArg;
+      
+          public IntBinaryOperation(int firstArg, int secondArg) {
+              this.firstArg = firstArg;
+              this.secondArg = secondArg;
+          }
+      
+          public abstract int perform();
+      }
+      
+      // declare and implement your classes here
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3078#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 20 Aug 2023 15:59:24 UTC"
+record: -1
+submission_language: java17
