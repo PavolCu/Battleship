@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Fill the matrix by numbers/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Fill the matrix by numbers/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Multidimensional_array-Fill_the_matrix_by_numbers.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Floating-point types/Area of a circle/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Floating-point types/Area of a circle/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Floating-point_types-Area_of_a_circle.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

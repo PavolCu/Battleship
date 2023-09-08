@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/The sign of a number/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/The sign of a number/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Declaring_a_method-The_sign_of_a_number.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

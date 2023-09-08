@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Hiding and overriding/Employee and Programmer/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Hiding and overriding/Employee and Programmer/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Hiding_and_overriding-Employee_and_Programmer.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

@@ -6,7 +6,7 @@
     <content url="file://$MODULE_DIR$/../../../../../Topics/Floating-point types/Celsius to Fahrenheit/src">
       <sourceFolder url="file://$MODULE_DIR$/../../../../../Topics/Floating-point types/Celsius to Fahrenheit/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Maximum element in a matrix/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Maximum element in a matrix/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Multidimensional_array-Maximum_element_in_a_matrix.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

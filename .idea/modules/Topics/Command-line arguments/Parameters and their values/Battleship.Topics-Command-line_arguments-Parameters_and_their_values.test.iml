@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/Parameters and their values/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/Parameters and their values/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Command-line_arguments-Parameters_and_their_values.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

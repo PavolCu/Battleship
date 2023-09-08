@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Rotate a rectangle array/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Rotate a rectangle array/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Multidimensional_array-Rotate_a_rectangle_array.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

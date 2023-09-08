@@ -1,6 +1,5 @@
 package battleship;
-import java.util.List;
-
+import java.lang.String;
 
 public class Player {
     private String name;
@@ -43,26 +42,36 @@ public class Player {
     }
 
     public ShotResult takeShot(Coordinate target, Player opponent) {
-        if (opponent.getBoard().wasAlreadyShotAt(target)) {
+        Board opponentBoard = opponent.getBoard();
+
+        //If the target cell was already shot at
+        if (opponentBoard.wasAlreadyShotAt(target)) {
             return ShotResult.ALREADY_HIT;
-        } else if (opponent.getBoard().isShipAtCoordinate(target)) {
-            opponent.getBoard().setCellAt(target, 'X');
-            // Assume 'X' denotes a hit cell
+        }
+
+        // If there' s ship at the target coordinate
+        if (opponentBoard.isShipAtCoordinate(target)) {
+            opponentBoard.markShipHit(target); //Mark the cell as hit
+
+            //Check if the entire ship at this coordinate is sunk
             for (String shipName : new String[] {"Aircraft Carrier", "Battleship", "Submarine", "Cruiser", "Destroyer"}) {
                 int shipSize = Ship.getShipInstance(shipName).getSize();
-                Coordinate startH = new Coordinate((char) (target.getRow() + 'A') + Integer.toString(target.getCol() + 1 - shipSize + 1));
+                Coordinate startH = new Coordinate((char) (target.getRow() + 'A') + Integer.toString(Math.max(1, target.getCol() + 1 - shipSize + 1)));
                 Coordinate endH = target;
-                Coordinate startV = new Coordinate((char) (target.getRow() - shipSize + 'A' + 1) + Integer.toString(target.getCol() + 1));
+                Coordinate startV = new Coordinate((char) (Math.max(0, target.getRow() - shipSize + 1) + 'A') + Integer.toString(target.getCol() + 1));
                 Coordinate endV = target;
 
-                if (opponent.getBoard().checkIfShipIsSunk(startH, endH) || opponent.getBoard().checkIfShipIsSunk(startV, endV)) {
+
+                if (opponentBoard.checkIfShipIsSunk(startH, endH) || opponentBoard.checkIfShipIsSunk(startV, endV)) {
                     return ShotResult.SUNK;
                 }
             }
+
             return ShotResult.HIT;
-        } else {
-            opponent.getBoard().setCellAt(target, 'O'); // Assume 'O' denotes a missed shot
-            return ShotResult.MISS;
+            }else {
+            // Mark the cell as a miss and return MISS
+            opponentBoard.setCellAt(target, 'M'); //Assume 'M' denotes a missed shot
+            return  ShotResult.MISS;
         }
     }
 

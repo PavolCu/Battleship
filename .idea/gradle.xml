@@ -8,8 +8,7 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="/usr/local/Cellar/gradle/8.1.1/libexec" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="gradleJvm" value="corretto-17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -62,6 +61,14 @@
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Theory" />
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Unusual overriding" />
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Which methods cannot be overridden" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Area of a circle" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Interface methods" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Marker interface" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Mutable geometric shapes" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Properties of methods" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interface/What does an interface define" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Which methods must be overridden" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Cinema" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Fill the matrix by numbers" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Getting an element from a 3D array" />

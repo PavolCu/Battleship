@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Cutting out the middle of a string/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Cutting out the middle of a string/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Processing_strings-Cutting_out_the_middle_of_a_string.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

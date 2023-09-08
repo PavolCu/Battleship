@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/Calculating factorials/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/Calculating factorials/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Declaring_a_method-Calculating_factorials.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

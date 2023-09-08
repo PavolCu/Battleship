@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/The index of an argument/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/The index of an argument/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Command-line_arguments-The_index_of_an_argument.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

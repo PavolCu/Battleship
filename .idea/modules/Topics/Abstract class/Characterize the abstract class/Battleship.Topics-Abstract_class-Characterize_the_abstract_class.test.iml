@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Abstract class/Characterize the abstract class/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Abstract class/Characterize the abstract class/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Abstract_class-Characterize_the_abstract_class.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

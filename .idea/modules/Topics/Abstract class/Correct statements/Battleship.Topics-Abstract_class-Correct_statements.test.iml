@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Abstract class/Correct statements/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Abstract class/Correct statements/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Abstract_class-Correct_statements.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

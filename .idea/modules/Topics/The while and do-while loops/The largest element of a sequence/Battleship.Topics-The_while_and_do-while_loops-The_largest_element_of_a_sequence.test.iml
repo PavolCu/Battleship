@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The largest element of a sequence/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The largest element of a sequence/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-The_while_and_do-while_loops-The_largest_element_of_a_sequence.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

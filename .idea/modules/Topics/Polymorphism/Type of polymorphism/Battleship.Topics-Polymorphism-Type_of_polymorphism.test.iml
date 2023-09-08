@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Polymorphism/Type of polymorphism/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Polymorphism/Type of polymorphism/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Polymorphism-Type_of_polymorphism.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

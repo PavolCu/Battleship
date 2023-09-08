@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Convert a date/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Convert a date/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Processing_strings-Convert_a_date.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

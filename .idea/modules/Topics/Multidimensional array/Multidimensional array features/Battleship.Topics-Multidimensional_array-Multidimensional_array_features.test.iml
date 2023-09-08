@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Multidimensional array features/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Multidimensional array features/test" />
-    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Multidimensional_array-Multidimensional_array_features.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

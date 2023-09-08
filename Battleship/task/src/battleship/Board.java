@@ -6,7 +6,6 @@ import java.util.Arrays;
 public class Board {
     private static final int BOARD_SIZE = 10; // Assumed size
     private static final char SHIP_CELL = 'O'; // Assumed character for ship
-    private static final char SHIP = 'S';
     private static final char SHIP_HIT = 'X';
     private static final char EMPTY = '-';
 
@@ -58,26 +57,39 @@ public class Board {
     }
 
     public boolean placeShip(Coordinate start, Coordinate end, String shipName) {
-        if (!isValidPlacement(start, end)) {
-            return false; //Ship placement is invalid.
+        //Normalize the start and end coordinates so that start is always "smaller"
+        int startRow = Math.min(start.getRow(), end.getRow());
+        int endRow = Math.max(start.getRow(), end.getRow());
+        int startCol = Math.min(start.getCol(), end.getCol());
+        int endCol = Math.max(start.getCol(), end.getCol());
+
+        //Check if the placement is valid and not too close to another ship
+        if (!isValidPlacement(new Coordinate(startRow, startCol), new Coordinate(endRow, endCol)) ||
+        isTooCloseToAnotherShip(startRow, startCol, endRow, endCol)) {
+            return false; //Ship placement is invalid
         }
 
-        if (start.getRow() == end.getRow()) {
-            for (int y = start.getCol(); y <= end.getCol(); y++) {
-                board[start.getRow()][y] = SHIP;
-                shipParts++;  // Increment ship parts count.
+        char shipSymbol = shipName.charAt(0); //Assuming unique initials for each ship, e.g. 'A' for Aircraft Barrier, 'B' for Battleship, etc.
+
+
+        if (startCol == endCol) {
+            for (int row = startRow; row <= endRow; row++) {
+                board[row][startCol] = SHIP_CELL;
+                shipTypeBoard[row][startCol] = shipSymbol; // Store ship type
+                shipParts++; // Increment ship parts count.
             }
         } else {
-            for (int x = start.getCol(); x <= end.getCol(); x++) {
-                board[x][start.getCol()] = SHIP;
-                shipParts++;  // Increment ship parts count.
+            for (int col = startCol; col <= endCol; col++) {
+                board[startRow][col] = SHIP_CELL;
+                shipTypeBoard[startRow][col] = shipSymbol; // Store ship type
+                shipParts++; // Increment ship parts count.
             }
         }
-        return true; //Ship placement is successful.
+        return true; // Ship placement is successful.
     }
 
     public void markShipHit(Coordinate hit) {
-        if (board[hit.getRow()][hit.getCol()] == SHIP) {
+        if (board[hit.getRow()][hit.getCol()] == SHIP_CELL) {
             board[hit.getRow()][hit.getCol()] = SHIP_HIT;
             shipParts--;  // Decrement ship parts count.
         }
@@ -96,13 +108,13 @@ public class Board {
     private boolean doesShipOverlap(Coordinate start, Coordinate end) {
         if (start.getRow() == end.getRow()) {
             for (int y = start.getCol(); y <= end.getCol(); y++) {
-                if (board[start.getCol()][y] == SHIP) {
+                if (board[start.getRow()][y] == SHIP_CELL) {
                     return true;
                 }
             }
         } else {
             for (int x = start.getRow(); x <= end.getRow(); x++) {
-                if (board[x][start.getCol()] == SHIP) {
+                if (board[x][start.getCol()] == SHIP_CELL) {
                     return true;
                 }
             }
