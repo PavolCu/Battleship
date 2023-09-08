@@ -6,7 +6,7 @@
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Multidimensional array features/src">
       <sourceFolder url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Multidimensional array features/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

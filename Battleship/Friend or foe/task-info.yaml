@@ -277,6 +277,7 @@ files:
           CheckResult testExample() {
       
               TestedProgram main = new TestedProgram();
+              main.feedbackOnException(OutOfMemoryError.class, "Your program threw an OutOfMemoryError. Make sure there are no memory leaks in your code.");
               String output = main.start().trim();
               String[][] matrix;
       
@@ -631,6 +632,18 @@ files:
           }
       }
     learner_created: false
+  - name: src/battleship/Board.java
+    visible: true
+    learner_created: true
+  - name: src/battleship/Ship.java
+    visible: true
+    learner_created: true
+  - name: src/battleship/Player.java
+    visible: true
+    learner_created: true
+  - name: src/battleship/Coordinate.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/10598#comment
 status: Unchecked
 record: -1

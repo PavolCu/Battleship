@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/The elements of a method/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/The elements of a method/test" />
-    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Declaring_a_method-The_elements_of_a_method.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

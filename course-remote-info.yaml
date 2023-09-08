@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/25073/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Tue, 05 Sep 2023 15:37:35 UTC"
+update_date: "Fri, 08 Sep 2023 21:06:44 UTC"
 stages:
   - id: 663
     step: 10594
@@ -24,12 +24,12 @@ topics:
   0:
     - title: Units of information
       theory_id: 6865
+    - title: "Write, compile, and run"
+      theory_id: 3739
     - title: Introduction to Operating systems
       theory_id: 9704
     - title: Command line overview
       theory_id: 8977
-    - title: "Write, compile, and run"
-      theory_id: 3739
     - title: Parameters and Options
       theory_id: 9746
     - title: "JVM, JRE, and JDK"

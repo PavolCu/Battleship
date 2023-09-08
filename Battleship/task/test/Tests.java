@@ -10,6 +10,7 @@ public class Tests extends StageTest<String> {
     CheckResult testExample() {
 
         TestedProgram main = new TestedProgram();
+        main.feedbackOnException(OutOfMemoryError.class, "Your program threw an OutOfMemoryError. Make sure there are no memory leaks in your code.");
         String output = main.start().trim();
         String[][] matrix;
 

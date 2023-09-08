@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Determine the value/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Determine the value/test" />
-    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Processing_strings-Determine_the_value.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

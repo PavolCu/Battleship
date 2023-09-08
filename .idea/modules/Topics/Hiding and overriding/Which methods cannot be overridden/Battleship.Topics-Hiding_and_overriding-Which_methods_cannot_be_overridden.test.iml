@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Hiding and overriding/Which methods cannot be overridden/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Hiding and overriding/Which methods cannot be overridden/test" />
-    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Hiding_and_overriding-Which_methods_cannot_be_overridden.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />
