@@ -1,4 +1,4 @@
-import org.hyperskill.hstest.dynamic.input.DynamicTestingMethod;
+import org.hyperskill.hstest.dynamic.DynamicTest;
 import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
 import org.hyperskill.hstest.stage.StageTest;
 import org.hyperskill.hstest.testcase.CheckResult;
@@ -6,7 +6,7 @@ import org.hyperskill.hstest.testing.TestedProgram;
 
 
 public class Tests extends StageTest<String> {
-    @DynamicTestingMethod
+    @DynamicTest
     CheckResult testExample() {
 
         TestedProgram main = new TestedProgram();

@@ -18,14 +18,6 @@ files:
       }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/11362#comment
-status: Failed
-feedback:
-  message: |
-    Compilation error
-    Main.java:28: error: incompatible types: Circle cannot be converted to Measurable
-            Measurable circle = new Circle(scanner.nextDouble());
-                                ^
-    1 error
-  time: "Sun, 10 Sep 2023 14:16:46 UTC"
+status: Solved
 record: -1
 submission_language: java17

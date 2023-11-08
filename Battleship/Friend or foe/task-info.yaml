@@ -265,7 +265,7 @@ files:
   - name: test/Tests.java
     visible: false
     text: |-
-      import org.hyperskill.hstest.dynamic.input.DynamicTestingMethod;
+      import org.hyperskill.hstest.dynamic.DynamicTest;
       import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
       import org.hyperskill.hstest.stage.StageTest;
       import org.hyperskill.hstest.testcase.CheckResult;
@@ -273,7 +273,7 @@ files:
       
       
       public class Tests extends StageTest<String> {
-          @DynamicTestingMethod
+          @DynamicTest
           CheckResult testExample() {
       
               TestedProgram main = new TestedProgram();
@@ -645,8 +645,5 @@ files:
     visible: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/10598#comment
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sun, 10 Sep 2023 15:41:41 UTC"
+status: Failed
 record: 5
