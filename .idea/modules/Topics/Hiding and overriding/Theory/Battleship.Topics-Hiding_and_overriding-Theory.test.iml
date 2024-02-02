@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Hiding and overriding/Theory/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Hiding and overriding/Theory/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Hiding_and_overriding-Theory.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Mutable geometric shapes/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Mutable geometric shapes/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Interface-Mutable_geometric_shapes.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

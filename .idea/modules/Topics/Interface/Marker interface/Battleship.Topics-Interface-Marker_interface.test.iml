@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Marker interface/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Marker interface/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Interface-Marker_interface.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

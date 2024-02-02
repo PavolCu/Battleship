@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/Basic calculator/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/Basic calculator/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Command-line_arguments-Basic_calculator.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

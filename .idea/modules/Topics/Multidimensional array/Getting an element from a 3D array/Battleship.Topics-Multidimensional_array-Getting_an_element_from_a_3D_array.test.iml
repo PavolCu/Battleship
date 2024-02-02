@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Getting an element from a 3D array/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Getting an element from a 3D array/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Multidimensional_array-Getting_an_element_from_a_3D_array.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

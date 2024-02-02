@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/Determine the result/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/Determine the result/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-The_while_and_do-while_loops-Determine_the_result.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

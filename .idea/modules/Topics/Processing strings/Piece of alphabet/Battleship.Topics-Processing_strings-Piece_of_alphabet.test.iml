@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Piece of alphabet/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Processing strings/Piece of alphabet/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Processing_strings-Piece_of_alphabet.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

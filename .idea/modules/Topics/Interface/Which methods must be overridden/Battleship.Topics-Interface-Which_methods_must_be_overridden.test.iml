@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Which methods must be overridden/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Which methods must be overridden/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Interface-Which_methods_must_be_overridden.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

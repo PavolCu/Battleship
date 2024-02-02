@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/Division/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/Division/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Declaring_a_method-Division.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

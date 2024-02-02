@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/Find the max of three numbers/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Declaring a method/Find the max of three numbers/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Declaring_a_method-Find_the_max_of_three_numbers.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

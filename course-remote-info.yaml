@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/25073/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Wed, 08 Nov 2023 20:54:40 UTC"
+update_date: "Fri, 02 Feb 2024 14:56:18 UTC"
 stages:
   - id: 663
     step: 10594
@@ -22,8 +22,6 @@ stages:
     is_completed: true
 topics:
   0:
-    - title: Units of information
-      theory_id: 6865
     - title: "Write, compile, and run"
       theory_id: 3739
     - title: "Basic terms: JVM, JRE, JDK"
@@ -32,8 +30,10 @@ topics:
       theory_id: 8977
     - title: Parameters and options
       theory_id: 9746
+    - title: Running programs on your computer
+      theory_id: 3746
     - title: Introduction to Java
-      theory_id: 3500
+      theory_id: 38627
     - title: "Basic literals: numbers, strings and characters"
       theory_id: 3522
     - title: Writing first program
@@ -92,8 +92,6 @@ topics:
       theory_id: 3511
     - title: Arrays as parameters
       theory_id: 3594
-    - title: Iterating over arrays
-      theory_id: 3602
     - title: Characters
       theory_id: 3514
     - title: String
@@ -102,23 +100,19 @@ topics:
       theory_id: 3536
     - title: First glance at exceptions
       theory_id: 3497
-    - title: NullPointerException
-      theory_id: 1945
-    - title: What is object-oriented programming
-      theory_id: 3614
-    - title: Grouping classes with packages
-      theory_id: 3621
     - title: Hierarchy of exceptions
       theory_id: 3570
     - title: Exception handling
       theory_id: 3552
+    - title: NullPointerException
+      theory_id: 1945
+    - title: Iterating over arrays
+      theory_id: 3602
     - title: Throwing exceptions
       theory_id: 3553
     - title: Custom exceptions
       theory_id: 15639
-    - title: Running programs on your computer
-      theory_id: 3746
-    - title: Files
+    - title: File class
       theory_id: 3635
     - title: Reading files
       theory_id: 3636
@@ -138,6 +132,8 @@ topics:
       theory_id: 9734
     - title: Defining classes
       theory_id: 3618
+    - title: Grouping classes with packages
+      theory_id: 3621
     - title: Instance methods
       theory_id: 3495
     - title: Initializing new instances. Constructor
@@ -150,9 +146,9 @@ topics:
       theory_id: 3583
     - title: Multiple constructors
       theory_id: 3538
-    - title: The keyword super
+    - title: Keyword "super"
       theory_id: 3588
-    - title: Objects
+    - title: Objects and their properties
       theory_id: 4727
   1:
     - title: What are bugs
@@ -166,7 +162,7 @@ topics:
       theory_id: 7427
     - title: Static members
       theory_id: 3534
-    - title: Enums in Java
+    - title: Combining constants with enum
       theory_id: 11514
     - title: Fields and methods in enum
       theory_id: 11523

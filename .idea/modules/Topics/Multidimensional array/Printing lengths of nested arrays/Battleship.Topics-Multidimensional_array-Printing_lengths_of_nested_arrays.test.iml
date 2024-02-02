@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Printing lengths of nested arrays/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Multidimensional array/Printing lengths of nested arrays/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Multidimensional_array-Printing_lengths_of_nested_arrays.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

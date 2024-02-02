@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/How to pass ints/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Command-line arguments/How to pass ints/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Command-line_arguments-How_to_pass_ints.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

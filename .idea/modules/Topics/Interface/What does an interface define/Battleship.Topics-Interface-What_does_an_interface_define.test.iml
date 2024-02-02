@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/What does an interface define/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/What does an interface define/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Interface-What_does_an_interface_define.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

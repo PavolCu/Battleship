@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Polymorphism/Notification/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Polymorphism/Notification/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Polymorphism-Notification.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

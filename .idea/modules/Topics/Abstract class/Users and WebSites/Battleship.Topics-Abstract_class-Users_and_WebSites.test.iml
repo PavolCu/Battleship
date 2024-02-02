@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Abstract class/Users and WebSites/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Abstract class/Users and WebSites/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Abstract_class-Users_and_WebSites.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

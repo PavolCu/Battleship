@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Interface methods/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Interface/Interface methods/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-Interface-Interface_methods.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />

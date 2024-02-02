@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Battleship.Topics-The_while_and_do-while_loops-The_length_of_the_sequence.main" />
     <orderEntry type="module" module-name="Battleship.util.main" />
